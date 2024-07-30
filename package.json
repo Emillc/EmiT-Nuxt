@@ -6,7 +6,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare && bunx simple-git-hooks",
+    "postinstall": "nuxt prepare && simple-git-hooks",
     "lint": "eslint .",
     "lint:fix": "eslint --fix ."
   },
@@ -30,7 +30,7 @@
     "vitest": "^1.6.0"
   },
   "simple-git-hooks": {
-    "pre-commit": "bunx lint-staged"
+    "pre-commit": "bun x lint-staged"
   },
   "lint-staged": {
     "*": [
