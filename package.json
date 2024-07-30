@@ -21,7 +21,7 @@
     "@unocss/eslint-plugin": "0.61.7",
     "@unocss/nuxt": "0.61.7",
     "@vue/test-utils": "^2.4.6",
-    "eslint": "8.57.0",
+    "eslint": "9.8.0",
     "eslint-plugin-format": "0.1.2",
     "happy-dom": "^14.12.3",
     "lint-staged": "15.2.7",
